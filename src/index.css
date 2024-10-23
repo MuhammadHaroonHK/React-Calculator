@@ -1,0 +1,9 @@
+.box-container {
+    width: 350px;
+    height: auto;
+    background-color: rgb(192, 185, 185);
+    border: 2px solid black;
+    display: block;
+    margin: auto auto;
+    border-radius: 10px;
+}
