@@ -1,9 +1,9 @@
 import design from './Display.module.css'
 
 
-function Display () {
+function Display({ currentValue }) {
     return (
-        <input className={design.display} type="text" placeholder='0'/>
+        <input className={design.display} type="text" readOnly value={currentValue} />
     )
 }
 
